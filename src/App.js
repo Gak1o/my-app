@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Landing from "./components/Landing";
 
 /*function App() {
 	return (
@@ -10,8 +11,9 @@ import Navbar from './components/Navbar';
 } */
   function App() {
     return (
-      <div className="App">
+      <div>
         <Navbar />
+        <Landing/>
         {/* Other components go here */}
       </div>
     );
